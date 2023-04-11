@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: trans_sch
+    database: ACCENTURE_SIEMENS_DB
+    schema: TRANSFORMATION_SCH
+    tables:
+      - name: SALES_AGENT
+      - name: SALES_PROFIT
+  - name: Stg_sch
+    database: ACCENTURE_SIEMENS_DB
+    schema: STAGING
+    tables:
+      - name: STG_ORDERS
+  - name: Raw_sch
+    database: ACCENTURE_SIEMENS_DB
+    schema: Raw_sch
+    tables:
+      - name: customers
+      
+      
